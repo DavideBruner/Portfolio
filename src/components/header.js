@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+  <li style={{ display: `inline-block`, marginRight: `1rem`, color: `lavender` }}>
     <Link to={props.to}>{props.children}</Link>
   </li>
 )
@@ -10,7 +10,7 @@ const ListLink = props => (
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'darkslateblue',
+      background: '#000066',
       marginBottom: '1.45rem',
     }}
   >
@@ -21,21 +21,22 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h2 style={{ display: 'inline', margin: 0 }}>
         <Link
           to="/"
           style={{
             color: 'lavender',
-            textDecoration: 'none',
+            
           }}
         >
           {siteTitle}
         </Link>
-        <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to="/">Home</ListLink>
+      </h2>
+      <ul style={{ listStyle: `none`, float: `right` }}>
+        <ListLink to="/cv">CV</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
-      </h1>
+      
     </div>
   </div>
 )

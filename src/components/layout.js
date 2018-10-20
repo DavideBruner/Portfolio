@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { connect } from "react-redux"
 
 import Header from './header'
+import Footer from './footer'
 import './layout.css'
 
 const Counter = ({ count, increment }) => (
@@ -65,6 +66,7 @@ const Layout = ({ children }) => (
         >
           {children}
           <ConnectedCounter />
+          <Footer />
         </div>
       </>
     )}

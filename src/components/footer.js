@@ -1,6 +1,23 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-const Footer = () => (<div></div>)
+const Footer = () => (
+  <div>
+    <a
+      href="https://github.com/zandersparrow"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      <FaGithub />
+    </a>
+    <a
+      href="https://linkedin.com/in/zandersparrow"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      <FaLinkedin />
+    </a>
+  </div>
+)
 
 export default Footer
