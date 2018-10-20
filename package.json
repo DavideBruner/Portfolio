@@ -12,12 +12,14 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.2.1",
     "react-redux": "^5.0.7",
     "react-typography": "^0.16.13",
     "redux": "^4.0.1",
     "typography": "^0.16.17",
     "typography-theme-de-young": "^0.16.9",
     "typography-theme-fairy-gates": "^0.15.11",
+    "typography-theme-moraga": "^0.15.10",
     "typography-theme-stern-grove": "^0.15.10"
   },
   "keywords": [
